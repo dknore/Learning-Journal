@@ -1,4 +1,4 @@
-# JS
+# JavaScript (JS)
 
 - Function:
 - Constructor Function:
