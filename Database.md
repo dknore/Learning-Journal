@@ -63,3 +63,25 @@ o	app.post('/articles', (request, response) => {
 	articles(title, author, "authorURL", category)
       });
 o	
+
+## JOINING Multiple Tables
+
+1) S
+elect desired columns OR ALL from table of origin 
+```
+SELECT * FROM table1
+```
+2) Join with desired table
+```
+INNER JOIN table2
+```
+3) Identify columns from table1 to be joined to columns from table2
+```
+ON articles.author_Id = authors.author_id
+```
+4) Optional filters:
+```
+ORDER BY publishedOn DESC
+```
+
+
