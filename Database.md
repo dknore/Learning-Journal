@@ -1,5 +1,9 @@
 # Databases
 
+
+----------------------------------
+## Setting up a Database
+
 ### <u>Terminal</u>:
 1.	mkdir todos (touch server.js .gitignore)     // Name of Table + add files
 2.	mkdir public (touch index.html app.js
@@ -84,4 +88,36 @@ ON articles.author_Id = authors.author_id
 ORDER BY publishedOn DESC
 ```
 
+## Data Structure
 
+### Storing Data:  
+
+<u>Arrays</u>
+
+Storing Objects in an ARRAY:<br>
+When the order of the objects is important, they should be stored in an array because each item in an array is given an index number.
+```
+var people = [
+      {name: 'Casey', age: 10},
+      {name: 'Camille', age: 13}
+]
+```
+<u>Properties</u><br>
+Storing Objects as PROPERTIES:<br>
+When you want to access objects using their name, they work well as properties of another object (because you wouldn't need to iterate through all of the objecst as you would in an array).
+```
+var people = {
+      Casey: {age: 10}, 
+      Camille: {age: 13}
+}
+```
+<u>Storing References to Objects & DOM Nodes</u><br>
+- ROW arrays:
+
+- PEOPLE arrays:
+
+<br>
+
+### Filtering Data
+- Dynamic Filtering:
+- Filtering an Array:
