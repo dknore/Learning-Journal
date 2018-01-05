@@ -1,6 +1,10 @@
 # Heroku
 
 Heroku lets you deploy, run and manage applications written in Ruby, Node.js, Java, Python, Clojure, Scala, Go and PHP.
+
+The Heroku platform uses Git as the primary means for deploying applications (there are other ways to transport your source code to Heroku, including via an API).
+
+When you create an application on Heroku, it associates a new Git remote, typically named heroku, with the local Git repository for your application.
 ### <u>Deploy</u>
 Applications consist of your source code, a description of any dependencies, and a Procfile.
 <u>**Procfiles**</u> list process types - named commands that you may want executed.
